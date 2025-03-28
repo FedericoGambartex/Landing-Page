@@ -1,0 +1,837 @@
+body {
+    background: linear-gradient(to bottom, #000000, #f0f0f0);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+}
+
+.texto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 1070px
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.escudo img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    transition: transform 0.5s ease;
+}
+
+.palmares img {
+    width: 2000px;
+    height: 100px; 
+}
+
+.tabladeposiciones {}
+
+.escudo:hover img {
+    transform: scale(1.2);
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.jugadores {
+    width: 227.5px;
+    /* Anchura del rectángulo */
+    height: 325px;
+    /* Altura del rectángulo */
+    position: absolute;
+    right: 10px;
+    /* Distancia desde el margen derecho */
+    top: 500px;
+    /* Centra la imagen verticalmente */
+    transform: translateY(-50%);
+    /* Ajuste para centrar exactamente */
+}
+
+
+
+div.malla {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 60px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+section {
+    width: 100%;
+    max-width: 350px;
+    height: 325px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -2px -1px 8px 7px rgba(176, 176, 176, 1);
+    -moz-box-shadow: -2px -1px 8px 7px rgba(176, 176, 176, 1);
+    box-shadow: -2px -1px 8px 7px rgba(176, 176, 176, 1);
+}
+
+.slider-container {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    /* Se ajusta a la altura de la sección */
+    overflow: hidden;
+    border-radius: 10px;
+
+
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+    /* Se ajusta a la altura del contenedor */
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    border: #000000;
+    object-fit: cover;
+    /* Cubrir el contenedor sin deformar la imagen */
+    object-position: top;
+    /* Prioriza la parte superior de la imagen */
+}
+
+.indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.indicators div {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.indicators div.active {
+    background-color: #333;
+}
+
+.card {
+    width: 30%;
+    margin: 60px auto;
+}
+
+
+#tablas {
+
+    display: flex;
+    padding-left: 180px
+}
+
+
+#mainvideo {}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+    /* Gris claro */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+    /* Blanco */
+}
+
+.liga td img {
+    width: 45px;
+    height: 50px;
+}
+
+#velez {
+    width: 47px;
+    height: 53px;
+}
+
+#rosario {
+    width: 50px;
+    height: 60px;
+}
+
+#barracas {
+    width: 50px;
+    height: 60px;
+}
+
+#newells {
+    width: 50px;
+    height: 60px;
+}
+
+#argentinosjrs {
+    width: 50px;
+    height: 60px;
+}
+
+#banfield {
+    width: 47px;
+    height: 55px;
+}
+
+#platense {
+    width: 50px;
+    height: 60px;
+}
+
+#tigre {
+    width: 50px;
+    height: 60px;
+}
+
+#godoycruz {
+    width: 50px;
+    height: 55px;
+}
+
+#lanus {
+    width: 50px;
+    height: 60px;
+}
+
+#estudianteslp {
+    width: 60px;
+    height: 60px;
+}
+
+
+#acordion {
+    padding-left: 180px;
+    padding-right: 118.5px;
+    width: 900px;
+}
+
+
+
+.container-river {
+    width: 350px;
+    height: 947px;
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid hsl(2, 96%, 38%);
+    order: 0;
+}
+
+.title1 {
+    background-color: solid hsl(2, 92%, 31%);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 100px;
+    margin: 20px 0;
+}
+
+.titulos1 {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.trophy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trophy-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trophy-list li:last-child {
+    border-bottom: none;
+}
+
+.trophy-icon {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.container-boca {
+    width: 350px;
+    height: 947px;
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid hsl(239, 92%, 45%);
+    order: 0;
+}
+
+.title2 {
+    background-color: hsl(239, 92%, 45%);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 100px;
+    margin: 20px 0;
+}
+
+.titulos2 {
+    background-color: hsl(224, 100%, 50%);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.trophy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trophy-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trophy-list li:last-child {
+    border-bottom: none;
+}
+
+.trophy-icon {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.container-independiente {
+    width: 350px;
+    height: 947px;
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid hsl(2, 92%, 31%);
+    order: 0;
+}
+
+.title3 {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 100px;
+    margin: 20px 0;
+}
+
+.titulos3 {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.trophy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trophy-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trophy-list li:last-child {
+    border-bottom: none;
+}
+
+.trophy-icon {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.container-sanlo {
+    width: 350px;
+    height: 947px;
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid hsl(2, 92%, 31%);
+    order: 0;
+}
+
+.title5 {
+    background-color: hsl(2, 92%, 31%);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 100px;
+    margin: 20px 0;
+}
+
+.titulos5 {
+    background-color: hsl(2, 92%, 31%);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.trophy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trophy-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trophy-list li:last-child {
+    border-bottom: none;
+}
+
+.trophy-icon {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+
+
+.container-racing {
+    width: 350px;
+    height: 947px;
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid #00aeffce;
+}
+
+.title5 {
+    background-color: hsl(2, 92%, 31%);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 100px;
+    margin: 20px 0;
+}
+
+.titulos4 {
+    background-color: hsl(2, 92%, 31%);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.trophy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trophy-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trophy-list li:last-child {
+    border-bottom: none;
+}
+
+.trophy-icon {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.blog-container {
+    order: 1;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+.blog-post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+    color: #333;
+}
+
+.extracto {
+    font-style: italic;
+    color: #666;
+}
+
+.fecha {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.contenido {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.categoria,
+.keywords {
+    font-size: 0.9em;
+    color: #000000;
+    margin-top: 10px;
+
+}
+
+
+.acordeon-racing {
+    border: 1px solid #00aeffce;
+    top: 45px;
+    border-radius: 5px;
+    width: 500px;
+    overflow: hidden;
+    order: 2;
+    border-width: 5px;
+}
+
+.acordeon-sanlo {
+    border: 1px solid hsl(2, 92%, 31%);
+    top: 45px;
+    border-radius: 5px;
+    width: 500px;
+    overflow: hidden;
+    order: 2;
+    border-width: 5px;
+}
+
+.acordeon-river {
+    order: 2;
+    border: 1px solid hsl(2, 96%, 38%);
+    top: 45px;
+    border-radius: 5px;
+    width: 500px;
+    overflow: hidden;
+    border-width: 5px;
+}
+
+.acordeon-independiente {
+    border: 1px solid hsl(2, 92%, 31%);
+    top: 45px;
+    border-radius: 5px;
+    width: 500px;
+    overflow: hidden;
+    order: 2;
+    border-width: 5px;
+}
+
+.acordeon {
+    border: 1px solid hsl(239, 92%, 45%);
+    top: 45px;
+    border-radius: 5px;
+    width: 500px;
+    overflow: hidden;
+    order: 2;
+    border-width: 5px;
+}
+
+
+.acordeon-item {
+    border-top: 1px solid #ccc;
+}
+
+.acordeon-header {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.acordeon-header-boca {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.acordeon-header-boca:hover {
+    background-color: hsl(239, 92%, 45%);
+    color: rgb(255, 255, 0);
+}
+
+.acordeon-header-river {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.acordeon-header-river:hover {
+    background-color: #ddddddfb;
+    color: hsl(2, 96%, 38%);
+}
+.acordeon-header-racing { 
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.acordeon-header-racing:hover {
+    background-color: #00aeffce;
+    color: rgb(255, 255, 255);
+}
+
+.acordeon-header-ind {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.acordeon-header-ind:hover {
+    background-color: hsl(2, 92%, 31%);
+    color: rgb(255, 255, 255);
+}
+
+.acordeon-header-sanlo {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.acordeon-header-sanlo:hover {
+    background-color: #1105b6ce;
+    color: rgb(216, 3, 3);
+}
+
+.acordeon-content {
+    padding: 15px;
+    display: none;
+    background-color: white;
+}
+
+
+
+.acordeon-item2 {
+    border-top: 1px solid #ccc;
+}
+
+.acordeon-header2 {
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+#sestadio {
+    height: 250px;
+    width: 470px;
+}
+
+#mercosur {
+    height: 55px;
+    width: 45px;
+    padding-left: 10px
+}
+
+#hinchadasanlo {
+    height: 325px;
+    width: 420px;
+    border-radius: 3%;
+}
+
+#hinchadaind {
+    height: 325px;
+    width: 420px;
+    border-radius: 3%;
+}
+
+#hinchadaboca {
+    height: 320px;
+    width: 420px;
+    border-radius: 3%;
+}
+
+#hinchadarac {
+    height: 320px;
+    width: 420px;
+    border-radius: 3%;
+}
+
+#hinchadariver {
+    height: 320px;
+    width: 420px;
+    border-radius: 3%;
+}
+
+#club {
+    color: #000000;
+}
+
+#form_art {
+    padding-right: 60px;
+}
+.pagination{
+    margin-left: 41%;
+}
+.profile-pic {
+    width: 40px; /* Ajusta el tamaño según lo necesites */
+    height: 40px; /* Mantiene la proporción circular */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin deformarse */
+    border: 2px solid #5e5656; /* Añade un borde blanco (opcional) */
+}
+.boton-volver {
+    background-color: rgb(77, 76, 76); /* color de fondo */
+    color: white; /* color del texto */
+    padding: 10px 20px; /* espaciado interno */
+    border: none; /* sin borde */
+    border-radius: 5px; /* bordes redondeados */
+    cursor: pointer; /* cambia el cursor al pasar el mouse */
+    font-size: 16px; /* tamaño del texto */
+    text-decoration: none; /* sin subrayado */
+    transition: background-color 0.3s ease; /* transición de color */
+    margin-bottom: 50px;
+}
+
+.boton-volver:hover {
+    background-color: #343834; /* color al pasar el cursor */
+}
+.boton-volver {
+    position: relative;
+    top: 700px;  /* Desplaza hacia abajo */
+    left: 0px; /* Desplaza hacia la derecha */
+}
+.blog-container {
+    text-align: right; /* Alinea el contenido a la derecha */
+    padding-bottom: 20px; /* Da espacio en la parte inferior */
+}
+
